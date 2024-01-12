@@ -4,6 +4,8 @@
 
 # React Native Authentication Mobile App
 
+(12-Jan-2024) A ReactJS Native authentication mobile app to login and view your profile.
+
 # Installation
 
 ```bash
