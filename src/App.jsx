@@ -53,7 +53,7 @@ const BottomTabs = () => {
     )
 }
 
-export default function App(): React.JSX.Element {
+export default function App() {
     return (
         <AuthContext>
             <NavigationContainer>
