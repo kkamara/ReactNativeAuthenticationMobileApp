@@ -5,8 +5,7 @@ import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs'
 
 import home from "./screens/home"
 import login from "./screens/login"
-import AuthContext from "./context"
-import { Context, } from "./context"
+import AuthContext, { Context, } from "./context"
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
