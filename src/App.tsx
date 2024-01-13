@@ -13,6 +13,7 @@ import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs'
 
 import home from "./screens/home"
 import login from "./screens/login"
+import Context from "./context"
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -39,12 +40,14 @@ const BottomTabs = () => {
 
 export default function App(): React.JSX.Element {
     return (
-        <NavigationContainer>
-            <Stack.Navigator initialRouteName='bottomtabs'>
-                <Stack.Screen options={{
-                headerShown: false,
-                }} name="bottomtabs" component={BottomTabs} />                
-            </Stack.Navigator>
-        </NavigationContainer>
+        <Context>
+            <NavigationContainer>
+                <Stack.Navigator initialRouteName='bottomtabs'>
+                    <Stack.Screen options={{
+                    headerShown: false,
+                    }} name="bottomtabs" component={BottomTabs} />                
+                </Stack.Navigator>
+            </NavigationContainer>
+        </Context>
     )
 }
