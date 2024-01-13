@@ -7,7 +7,7 @@ import {
     Text,
 } from "react-native"
 
-export default function Home() {
+export default function HomeComponent() {
     const openUrl = async () => {
         await Linking.openURL("https://www.kelvinkamara.com")
     }
