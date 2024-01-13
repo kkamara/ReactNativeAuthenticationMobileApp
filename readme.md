@@ -1,6 +1,4 @@
-<img src="https://github.com/kkamara/useful/blob/main/ReactNativeStylerMobileApp.png?raw=true" alt="ReactNativeStylerMobileApp.png" width=""/>
-
-<img src="https://github.com/kkamara/useful/blob/main/ReactNativeStylerMobileApp2.png?raw=true" alt="ReactNativeStylerMobileApp2.png" width=""/>
+<img src="https://github.com/kkamara/useful/blob/main/ReactNativeAuthenticationMobileApp.png?raw=true" alt="ReactNativeAuthenticationMobileApp.png" width=""/>
 
 # React Native Authentication Mobile App
 
